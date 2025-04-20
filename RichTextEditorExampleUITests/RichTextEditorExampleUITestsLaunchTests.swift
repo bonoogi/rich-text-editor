@@ -1,13 +1,13 @@
 //
-//  RichTextEditorSampleUITestsLaunchTests.swift
-//  RichTextEditorSampleUITests
+//  RichTextEditorExampleUITestsLaunchTests.swift
+//  RichTextEditorExampleUITests
 //
 //  Created by 구본욱 on 4/20/25.
 //
 
 import XCTest
 
-final class RichTextEditorSampleUITestsLaunchTests: XCTestCase {
+final class RichTextEditorExampleUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

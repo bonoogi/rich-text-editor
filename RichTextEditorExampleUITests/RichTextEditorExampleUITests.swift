@@ -1,13 +1,13 @@
 //
-//  RichTextEditorSampleUITests.swift
-//  RichTextEditorSampleUITests
+//  RichTextEditorExampleUITests.swift
+//  RichTextEditorExampleUITests
 //
 //  Created by 구본욱 on 4/20/25.
 //
 
 import XCTest
 
-final class RichTextEditorSampleUITests: XCTestCase {
+final class RichTextEditorExampleUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
