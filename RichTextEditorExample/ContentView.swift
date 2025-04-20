@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  RichTextEditorSample
+//  RichTextEditorExample
 //
 //  Created by 구본욱 on 4/20/25.
 //
