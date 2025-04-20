@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1EBEC9D32DB4BBF3008A795E /* RichTextEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBEC9C82DB4BBF3008A795E /* RichTextEditor.framework */; };
+		1EBECA122DB4BC8B008A795E /* RichTextEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBEC9C82DB4BBF3008A795E /* RichTextEditor.framework */; };
+		1EBECA132DB4BC8B008A795E /* RichTextEditor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBEC9C82DB4BBF3008A795E /* RichTextEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -18,11 +20,49 @@
 			remoteGlobalIDString = 1EBEC9C72DB4BBF3008A795E;
 			remoteInfo = RichTextEditor;
 		};
+		1EBEC9F72DB4BC73008A795E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBEC9BF2DB4BBF3008A795E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBEC9E62DB4BC72008A795E;
+			remoteInfo = RichTextEditorSample;
+		};
+		1EBECA012DB4BC73008A795E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBEC9BF2DB4BBF3008A795E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBEC9E62DB4BC72008A795E;
+			remoteInfo = RichTextEditorSample;
+		};
+		1EBECA142DB4BC8B008A795E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBEC9BF2DB4BBF3008A795E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBEC9C72DB4BBF3008A795E;
+			remoteInfo = RichTextEditor;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EBECA162DB4BC8B008A795E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1EBECA132DB4BC8B008A795E /* RichTextEditor.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1EBEC9C82DB4BBF3008A795E /* RichTextEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RichTextEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBEC9D22DB4BBF3008A795E /* RichTextEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichTextEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBEC9E72DB4BC72008A795E /* RichTextEditorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichTextEditorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBEC9F62DB4BC73008A795E /* RichTextEditorSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichTextEditorSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBECA002DB4BC73008A795E /* RichTextEditorSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichTextEditorSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -49,6 +89,21 @@
 			path = RichTextEditorTests;
 			sourceTree = "<group>";
 		};
+		1EBEC9E82DB4BC72008A795E /* RichTextEditorSample */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RichTextEditorSample;
+			sourceTree = "<group>";
+		};
+		1EBEC9F92DB4BC73008A795E /* RichTextEditorSampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RichTextEditorSampleTests;
+			sourceTree = "<group>";
+		};
+		1EBECA032DB4BC73008A795E /* RichTextEditorSampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RichTextEditorSampleUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +122,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1EBEC9E42DB4BC72008A795E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBECA122DB4BC8B008A795E /* RichTextEditor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBEC9F32DB4BC73008A795E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBEC9FD2DB4BC73008A795E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,6 +152,10 @@
 			children = (
 				1EBEC9CA2DB4BBF3008A795E /* RichTextEditor */,
 				1EBEC9D62DB4BBF3008A795E /* RichTextEditorTests */,
+				1EBEC9E82DB4BC72008A795E /* RichTextEditorSample */,
+				1EBEC9F92DB4BC73008A795E /* RichTextEditorSampleTests */,
+				1EBECA032DB4BC73008A795E /* RichTextEditorSampleUITests */,
+				1EBECA112DB4BC8B008A795E /* Frameworks */,
 				1EBEC9C92DB4BBF3008A795E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,8 +165,18 @@
 			children = (
 				1EBEC9C82DB4BBF3008A795E /* RichTextEditor.framework */,
 				1EBEC9D22DB4BBF3008A795E /* RichTextEditorTests.xctest */,
+				1EBEC9E72DB4BC72008A795E /* RichTextEditorSample.app */,
+				1EBEC9F62DB4BC73008A795E /* RichTextEditorSampleTests.xctest */,
+				1EBECA002DB4BC73008A795E /* RichTextEditorSampleUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1EBECA112DB4BC8B008A795E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +238,76 @@
 			productReference = 1EBEC9D22DB4BBF3008A795E /* RichTextEditorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		1EBEC9E62DB4BC72008A795E /* RichTextEditorSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBECA082DB4BC73008A795E /* Build configuration list for PBXNativeTarget "RichTextEditorSample" */;
+			buildPhases = (
+				1EBEC9E32DB4BC72008A795E /* Sources */,
+				1EBEC9E42DB4BC72008A795E /* Frameworks */,
+				1EBEC9E52DB4BC72008A795E /* Resources */,
+				1EBECA162DB4BC8B008A795E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBECA152DB4BC8B008A795E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1EBEC9E82DB4BC72008A795E /* RichTextEditorSample */,
+			);
+			name = RichTextEditorSample;
+			packageProductDependencies = (
+			);
+			productName = RichTextEditorSample;
+			productReference = 1EBEC9E72DB4BC72008A795E /* RichTextEditorSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EBEC9F52DB4BC73008A795E /* RichTextEditorSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBECA0B2DB4BC73008A795E /* Build configuration list for PBXNativeTarget "RichTextEditorSampleTests" */;
+			buildPhases = (
+				1EBEC9F22DB4BC73008A795E /* Sources */,
+				1EBEC9F32DB4BC73008A795E /* Frameworks */,
+				1EBEC9F42DB4BC73008A795E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBEC9F82DB4BC73008A795E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1EBEC9F92DB4BC73008A795E /* RichTextEditorSampleTests */,
+			);
+			name = RichTextEditorSampleTests;
+			packageProductDependencies = (
+			);
+			productName = RichTextEditorSampleTests;
+			productReference = 1EBEC9F62DB4BC73008A795E /* RichTextEditorSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EBEC9FF2DB4BC73008A795E /* RichTextEditorSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBECA0E2DB4BC73008A795E /* Build configuration list for PBXNativeTarget "RichTextEditorSampleUITests" */;
+			buildPhases = (
+				1EBEC9FC2DB4BC73008A795E /* Sources */,
+				1EBEC9FD2DB4BC73008A795E /* Frameworks */,
+				1EBEC9FE2DB4BC73008A795E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBECA022DB4BC73008A795E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1EBECA032DB4BC73008A795E /* RichTextEditorSampleUITests */,
+			);
+			name = RichTextEditorSampleUITests;
+			packageProductDependencies = (
+			);
+			productName = RichTextEditorSampleUITests;
+			productReference = 1EBECA002DB4BC73008A795E /* RichTextEditorSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -162,6 +323,17 @@
 					};
 					1EBEC9D12DB4BBF3008A795E = {
 						CreatedOnToolsVersion = 16.0;
+					};
+					1EBEC9E62DB4BC72008A795E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					1EBEC9F52DB4BC73008A795E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1EBEC9E62DB4BC72008A795E;
+					};
+					1EBEC9FF2DB4BC73008A795E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1EBEC9E62DB4BC72008A795E;
 					};
 				};
 			};
@@ -181,6 +353,9 @@
 			targets = (
 				1EBEC9C72DB4BBF3008A795E /* RichTextEditor */,
 				1EBEC9D12DB4BBF3008A795E /* RichTextEditorTests */,
+				1EBEC9E62DB4BC72008A795E /* RichTextEditorSample */,
+				1EBEC9F52DB4BC73008A795E /* RichTextEditorSampleTests */,
+				1EBEC9FF2DB4BC73008A795E /* RichTextEditorSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,6 +369,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1EBEC9D02DB4BBF3008A795E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBEC9E52DB4BC72008A795E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBEC9F42DB4BC73008A795E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBEC9FE2DB4BC73008A795E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,6 +413,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1EBEC9E32DB4BC72008A795E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBEC9F22DB4BC73008A795E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBEC9FC2DB4BC73008A795E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -224,6 +441,21 @@
 			isa = PBXTargetDependency;
 			target = 1EBEC9C72DB4BBF3008A795E /* RichTextEditor */;
 			targetProxy = 1EBEC9D42DB4BBF3008A795E /* PBXContainerItemProxy */;
+		};
+		1EBEC9F82DB4BC73008A795E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBEC9E62DB4BC72008A795E /* RichTextEditorSample */;
+			targetProxy = 1EBEC9F72DB4BC73008A795E /* PBXContainerItemProxy */;
+		};
+		1EBECA022DB4BC73008A795E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBEC9E62DB4BC72008A795E /* RichTextEditorSample */;
+			targetProxy = 1EBECA012DB4BC73008A795E /* PBXContainerItemProxy */;
+		};
+		1EBECA152DB4BC8B008A795E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBEC9C72DB4BBF3008A795E /* RichTextEditor */;
+			targetProxy = 1EBECA142DB4BC8B008A795E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -259,7 +491,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bonoogi.RichTextEditor;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -302,7 +534,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bonoogi.RichTextEditor;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -371,6 +603,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -428,6 +661,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -478,6 +712,157 @@
 			};
 			name = Release;
 		};
+		1EBECA092DB4BC73008A795E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RichTextEditorSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 6UUU4R8Z45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonoogi.RichTextEditorSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EBECA0A2DB4BC73008A795E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RichTextEditorSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 6UUU4R8Z45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonoogi.RichTextEditorSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EBECA0C2DB4BC73008A795E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6UUU4R8Z45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonoogi.RichTextEditorSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RichTextEditorSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RichTextEditorSample";
+			};
+			name = Debug;
+		};
+		1EBECA0D2DB4BC73008A795E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6UUU4R8Z45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonoogi.RichTextEditorSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RichTextEditorSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RichTextEditorSample";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EBECA0F2DB4BC73008A795E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6UUU4R8Z45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonoogi.RichTextEditorSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RichTextEditorSample;
+			};
+			name = Debug;
+		};
+		1EBECA102DB4BC73008A795E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6UUU4R8Z45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonoogi.RichTextEditorSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RichTextEditorSample;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -504,6 +889,33 @@
 			buildConfigurations = (
 				1EBEC9E12DB4BBF3008A795E /* Debug */,
 				1EBEC9E22DB4BBF3008A795E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBECA082DB4BC73008A795E /* Build configuration list for PBXNativeTarget "RichTextEditorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBECA092DB4BC73008A795E /* Debug */,
+				1EBECA0A2DB4BC73008A795E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBECA0B2DB4BC73008A795E /* Build configuration list for PBXNativeTarget "RichTextEditorSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBECA0C2DB4BC73008A795E /* Debug */,
+				1EBECA0D2DB4BC73008A795E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBECA0E2DB4BC73008A795E /* Build configuration list for PBXNativeTarget "RichTextEditorSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBECA0F2DB4BC73008A795E /* Debug */,
+				1EBECA102DB4BC73008A795E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
